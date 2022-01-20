@@ -1,16 +1,16 @@
 # gamemax
 Script gamemax by raden trix
 
-apt update
+$ apt update
 
-apt upgrade
+$ apt upgrade
 
-apt install git
+$ apt install git
 
-apt install python
+$ apt install python
 
-git clone https://github.com/radentrix/gamemax.git
+$ git clone https://github.com/radentrix/gamemax.git
 
-cd gamemax
+$ cd gamemax
 
-python main.py
+$ python main.py
