@@ -1,23 +1,4 @@
 print(' ' + '\033[35;1m' )
-
-print(' SELAMAT DATANG DI SCRIPT RADEN TRIX ' )
-
-print(' MOHON ISI USERNAME DAN PASWOORD ' )
-     
-user = raw_input(" Username: ")
-
-import getpass
-
-sandi = getpass.getpass()
-
-if sandi == 'Trix' and user == 'Raden':
-
-	print "Kamu Berhasil Login"
-	
-else:
-
-	print "Username atau Password Salah !"
-
 import os
 import sys
 import random
