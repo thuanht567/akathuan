@@ -137,10 +137,10 @@ def main():
      '[Y1] BOKEPER DOSA DI TANGGUNG SENDIRI ','[CC]'
      '[G1] ','[CC]'
      '[R1] HOST : 127.0.0.1 ','[CC]'
-     '[R1] PORT : 443 ','[CC]'
+     '[R1] PORT : 8080 ','[CC]'
    
     ])))    
-    inject('127.0.0.1', '443 ').start()
+    inject('127.0.0.1', '8080 ').start()
 
 if __name__ == '__main__':
     main()
